@@ -1,0 +1,11 @@
+framework module BCD {
+  umbrella header "BCD.h"
+
+  export *
+  module * { export * }
+}
+
+module BCD.Swift {
+  header "BCD-Swift.h"
+  requires objc
+}
